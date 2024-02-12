@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1 id="authName"></h1>
+    </div>
+    <div class="container">
+        <div class="col-8">
+            <h1>Login </h1>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                <input type="password" name="password" id="pass" placeholder="Enter Your Password" required>
+                <br>
+                <input type="button" onclick="login()" value="Login"><br>
+                <span style="color: white;"> if you don't have account so kindly click the register button </span>
+                <input type="button" onclick="register()" value="Register">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

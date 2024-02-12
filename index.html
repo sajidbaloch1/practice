@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="assets/css/home.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <ul>
+          <li> <a href="index.html"> Home </a></li>
+          <li> <a href=""> Product </a></li>
+          <li> <a href=""> Abut US </a></li>
+          <li> <a href=""> Contact US </a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul id="login">
+          <li>
+            <a href="assets/auth/login.html">Login</a>
+          </li>
+          <li>
+            <a href="assets/auth/register.html">Register</a>
+          </li>
+
+        </ul>
+        <div class="dropdown">
+          <img id="profile" alt="Profile">
+          <div class="dropdown-content">
+            <a href="#" id="logoutLink" onclick="logout()">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

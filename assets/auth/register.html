@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1 id="authName"></h1>
+    </div>
+    <div class="container">
+        <div class="col-8">
+            <h1>Register</h1>
+            <form action="#" method="post">
+                <input type="text" name="userName" id="userName" placeholder="Enter Your User Name" required> <br>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                <input type="password" name="password" id="pass" placeholder="Enter Your Password" required>
+
+                <br>
+                <br>
+                <input type="file" id="userImage" name="userImage">
+                <br>
+                <br><input type="button" onclick="register()" value="Register">
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/register.js"></script>
+</body>
+
+</html>

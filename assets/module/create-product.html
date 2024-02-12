@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="../css/index.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <h1 id="authName"></h1>
+    </div>
+    <div class="container">
+        <div class="col-8">
+            <h1>Product Upload Page</h1>
+            <form action="">
+                <input type="email" name="email" id="productName" required placeholder="Enter Product Name ">
+                <input type="text" name="price" id="productPrice" required placeholder="Enter Product Price">
+                <br>
+                <br>
+                <input type="file" id="productFile" name="file" required>
+                <br>
+                <input type="button" onclick="imageUpload()" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <img src="" id="myImage" width="300px" />
+
+
+    <script src="../js/product-upload.js"></script>
+</body>
+
+</html>
